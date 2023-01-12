@@ -1,0 +1,227 @@
+@import "./base.css";
+@import "./navigation.css";
+@font-face {
+  font-family: Museo;
+  src: url(./MuseoModerno-VariableFont_wght.woff2);
+}
+:root {
+  --biggest-font-size: 3rem;
+  --h1-font-size: 2.25rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+  --smaller-font-size: 0.813rem;
+
+  --font-medium: 300;
+  --font-semibold: 600;
+
+  --mb-0-25: 0.25rem;
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+
+  --z-fixed: 100;
+  --z-modal: 1000;
+}
+.color1 {
+  --clr-skin: hsl(342, 92%, 46%);
+}
+.color2 {
+  --clr-skin: hsl(32, 92%, 46%);
+}
+.color3 {
+  --clr-skin: hsl(128, 92%, 46%);
+}
+.color4 {
+  --clr-skin: hsl(234, 92%, 46%);
+}
+.color5 {
+  --clr-skin: hsl(318, 92%, 46%);
+}
+
+.darkmode {
+  --hue-color: 242;
+  --clr-title: hsl(var(--hue-color), 8%, 80%);
+  --clr-text: hsl(var(--hue-color), 8%, 85%);
+  --clr-body: hsl(var(--hue-color), 19%, 5%);
+  --clr-box: hsl(var(--hue-color), 14%, 14%);
+  --clr-box-sh: hsl(var(--hue-color), 14%, 10%);
+  --clr-scroll-bar: hsl(var(--hue-color), 12%, 38%);
+  --clr-scroll-bar-thumb: hsl(var(--hue-color), 12%, 26%);
+  --swiper-pagination-color: var(--clr-skin);
+}
+.lightmode {
+  --hue-color: 242;
+  --clr-title: hsl(var(--hue-color), 14%, 14%);
+  --clr-text: hsl(var(--hue-color), 19%, 5%);
+  --clr-body: hsl(var(--hue-color), 8%, 85%);
+  --clr-box: hsl(var(--hue-color), 8%, 80%);
+  --clr-box-sh: hsl(var(--hue-color), 8%, 75%);
+  --clr-scroll-bar: hsl(var(--hue-color), 12%, 64%);
+  --clr-scroll-bar-thumb: hsl(var(--hue-color), 12%, 72%);
+  --swiper-pagination-color: var(--clr-skin);
+}
+
+@media screen and (max-height: 1080px) and (max-width: 1920px) {
+  :root {
+    --biggest-font-size: 1.75rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+    --tiny-font-size: 0.625rem;
+  }
+}
+
+* {
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body,
+button,
+input {
+  font-family: "Museo", sans-serif;
+  font-size: var(--normal-font-size);
+}
+
+body,
+span {
+  color: var(--clr-text);
+}
+
+.main-container {
+  background-color: var(--clr-box);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--clr-title);
+  font-weight: var(--font-semibold);
+}
+h4 {
+  color: var(--clr-text);
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button,
+input,
+textarea {
+  border: none;
+  outline: none;
+}
+
+.flex {
+  display: flex;
+}
+
+section {
+  z-index: 0;
+  margin: 0 5rem;
+}
+
+.hidden {
+  display: none !important;
+}
+
+a {
+  text-decoration: none;
+  color: var(--clr-text);
+}
+
+p {
+  color: var(--clr-text);
+  padding-block: 0.5rem;
+}
+i {
+  color: var(--clr-text);
+}
+
+.bs {
+  box-shadow: 1px 1px 5px var(--clr-text), -1px 1px 5px var(--clr-text),
+    -1px -1px 5px var(--clr-text), 1px -1px 5px var(--clr-text);
+}
+
+button {
+  background-color: var(--clr-skin);
+  padding: var(--small-font-size) var(--h2-font-size);
+  border-radius: 0.5rem;
+  width: fit-content;
+  color: var(--clr-text);
+  font-weight: var(--font-semibold);
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  z-index: 1;
+  position: relative;
+}
+
+button::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #343a40;
+  z-index: -1;
+  transform-origin: center;
+  transform: scale(0);
+  border-radius: 0.5rem;
+  transition: 0.5s;
+}
+
+button:hover::after {
+  transform: scale(1);
+}
+
+@media screen and (min-width: 1200px) {
+  section {
+    padding-left: 270px;
+    margin-left: 0 2rem;
+  }
+}
+
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.section__header {
+  position: relative;
+  padding-block: 2.5rem;
+  margin: 0;
+}
+
+.section__box-title {
+  padding-block: 2.5rem;
+}
+
+.flex-data {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
