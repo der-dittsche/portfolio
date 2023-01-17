@@ -1,30 +1,32 @@
 <template>
-  <section id="home">
-    <HomeElement />
-  </section>
-  <section id="about">
-    <AboutElement />
-  </section>
-  <section id="skills">
-    <SkillsElement />
-  </section>
-  <section id="qualifications">
-    <QualifiactionElement />
-  </section>
-  <section id="service">
-    <ServiceElement />
-  </section>
-  <section id="contact">
-    <ContactElement />
-  </section>
+  <div class="main__content">
+    <section class="home section" id="home">
+      <HomeElement />
+    </section>
+    <section class="about section" id="about">
+      <AboutElement />
+    </section>
+    <section class="skills section" id="skills">
+      <SkillsElement />
+    </section>
+    <section class="qualifications section" id="qualifications">
+      <QualifiactionElement />
+    </section>
+    <section class="service section" id="service">
+      <ServiceElement />
+    </section>
+    <section class="section contact" id="contact">
+      <ContactElement />
+    </section>
+  </div>
 </template>
 <script>
 import HomeElement from "@/components/home/01Home.vue";
 import AboutElement from "@/components/home/02About.vue";
 import SkillsElement from "@/components/home/03Skills.vue";
-import QualifiactionElement from "@/components/home/04Qualification.vue";
-import ServiceElement from "@/components/home/06Service.vue";
-import ContactElement from "@/components/home/07Contact.vue";
+import QualifiactionElement from "@/components/home/04Qualifications.vue";
+import ServiceElement from "@/components/home/05Service.vue";
+import ContactElement from "@/components/home/06Contact.vue";
 
 export default {
   components: {
@@ -33,7 +35,6 @@ export default {
     SkillsElement,
     QualifiactionElement,
     ServiceElement,
-
     ContactElement,
   },
 };
