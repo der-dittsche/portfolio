@@ -40,31 +40,37 @@ export default {
         text: "Home",
         path: "/#home",
         icon: "bx bx-home",
+        id: "home",
       },
       {
         text: "About",
         path: "/#about",
         icon: "bx bx-user",
+        id: "about",
       },
       {
         text: "Skills",
         path: "/#skills",
         icon: "bx bx-bulb",
+        id: "skills",
       },
       {
         text: "Qualifications",
         path: "/#qualifications",
         icon: "bx bx-book",
+        id: "qualification",
       },
       {
         text: "Service",
         path: "/#service",
         icon: "bx bx-briefcase-alt-2",
+        id: "service",
       },
       {
         text: "Contact",
         path: "/#contact",
         icon: "bx bx-message-square-dots",
+        id: "contact",
       },
     ],
     togglenav: ref(false),
@@ -77,28 +83,6 @@ export default {
       this.togglenav = !this.togglenav;
     },
   },
-  mounted() {
-    const sections = document.querySelectorAll("section[id]");
-
-    window.addEventListener("scroll", navHighlighter);
-
-    function navHighlighter() {
-      let scrollY = window.pageYOffset;
-      sections.forEach((current) => {
-        const sectionHeight = current.offsetHight;
-        const sectionTop = current.offsetTop - 50,
-          sectionId = current.getAttribute("id");
-        if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-          document
-            .querySelector(".nav__menu a[href*=" + sectionId + "]")
-            .classList.add("active-link");
-        } else {
-          document
-            .querySelector(".nav__menu a[href*=" + sectionId + "] ")
-            .classList.remove("active-link");
-        }
-      });
-    }
-  },
+  mounted() {},
 };
 </script>
