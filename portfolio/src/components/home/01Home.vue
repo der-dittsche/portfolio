@@ -89,8 +89,8 @@
 }
 
 .home__title {
-  font-size: 6rem;
-  letter-spacing: 5px;
+  font-size: 3.5rem;
+  letter-spacing: 4px;
   text-shadow: 2px 2px 5px hsl(52, 100%, 92%);
 }
 
@@ -180,6 +180,13 @@
   }
   .home__description {
     max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 390px) {
+  .home__title {
+    font-size: 5.5rem;
+    letter-spacing: 0px;
   }
 }
 </style>

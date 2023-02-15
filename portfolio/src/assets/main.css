@@ -305,6 +305,7 @@ main {
 
 .menu {
   display: flex;
+  background-color: var(--box-color);
 }
 
 .nav__list {
@@ -319,7 +320,7 @@ main {
   height: 100%;
   line-height: 100px;
   padding: 0 1rem;
-  color: var(--title-color);
+  color: var(--text-color);
   position: relative;
   transition: 0.5s;
   display: inline-flex;
@@ -391,6 +392,12 @@ main {
   }
   .nav__logo {
     display: none;
+  }
+  .menu {
+    background-color: transparent;
+  }
+  .nav__link {
+    color: hsl(52, 100%, 92%);
   }
 
   .nav__menu {
