@@ -4,18 +4,21 @@
     <div class="services__container container grid">
       <div class="service__content">
         <div>
-          <div class="services__icon">
-            <i class="bx bx-code-alt service__icon"></i>
-            <i class="bx bx-terminal service__icon"></i>
+          <div class="service__click">
+            <div class="services__icon">
+              <i class="bx bx-code-alt service__icon"></i>
+              <i class="bx bx-terminal service__icon"></i>
+            </div>
+            <h3 class="services__title">
+              Development &<br />
+              Testing
+            </h3>
           </div>
-          <h3 class="services__title">
-            Development &<br />
-            Testing
-          </h3>
+
+          <span class="services__button">
+            View more <i class="bx bx-chevron-right services__button-icon"></i
+          ></span>
         </div>
-        <span class="services__button">
-          View more <i class="bx bx-chevron-right services__button-icon"></i
-        ></span>
         <div class="services__modal">
           <div class="services__modal-content">
             <i class="bx bx-x services__modal-close"></i>
@@ -51,18 +54,20 @@
       </div>
       <div class="service__content">
         <div>
-          <div class="services__icon">
-            <i class="bx bx-layout service__icon"></i>
-            <i class="bx bx-image service__icon"></i>
+          <div class="service__click">
+            <div class="services__icon">
+              <i class="bx bx-layout service__icon"></i>
+              <i class="bx bx-image service__icon"></i>
+            </div>
+            <h3 class="services__title">
+              Layout &<br />
+              Design
+            </h3>
           </div>
-          <h3 class="services__title">
-            Layout &<br />
-            Design
-          </h3>
+          <span class="services__button">
+            View more <i class="bx bx-chevron-right services__button-icon"></i
+          ></span>
         </div>
-        <span class="services__button">
-          View more <i class="bx bx-chevron-right services__button-icon"></i
-        ></span>
         <div class="services__modal">
           <div class="services__modal-content">
             <i class="bx bx-x services__modal-close"></i>
@@ -94,19 +99,21 @@
       </div>
       <div class="service__content">
         <div>
-          <div class="services__icon">
-            <i class="bx bx-cloud service__icon"></i>
-            <i class="bx bxs-devices service__icon"></i>
-            <i class="bx bx-cog service__icon"></i>
+          <div class="service__click">
+            <div class="services__icon">
+              <i class="bx bx-cloud service__icon"></i>
+              <i class="bx bxs-devices service__icon"></i>
+              <i class="bx bx-cog service__icon"></i>
+            </div>
+            <h3 class="services__title">
+              Development &<br />
+              Testing
+            </h3>
           </div>
-          <h3 class="services__title">
-            Development &<br />
-            Testing
-          </h3>
+          <span class="services__button">
+            View more<i class="bx bx-chevron-right services__button-icon"></i>
+          </span>
         </div>
-        <span class="services__button">
-          View more<i class="bx bx-chevron-right services__button-icon"></i>
-        </span>
         <div class="services__modal">
           <div class="services__modal-content">
             <i class="bx bx-x services__modal-close"></i>
@@ -149,7 +156,7 @@
 export default {
   mounted() {
     const modalViews = document.querySelectorAll(".services__modal"),
-      modalBtns = document.querySelectorAll(".services__button"),
+      modalBtns = document.querySelectorAll(".service__click"),
       modalCloses = document.querySelectorAll(".services__modal-close");
 
     let modal = function (modalClick) {
@@ -186,6 +193,7 @@ export default {
   padding: 5rem 2rem 3rem 2rem;
   text-align: center;
   border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 .services__icon {
