@@ -265,6 +265,7 @@ export default {
   border: 1px solid var(--bg-black-50);
   box-shadow: 5px 5px 5px var(--bg-black-50);
   background-color: var(--box-color);
+  border-radius: 0.5rem;
 }
 
 .testimonial__content p {

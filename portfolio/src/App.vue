@@ -56,7 +56,7 @@ export default {
       },
       {
         text: "Qualifications",
-        path: "/#qualifications",
+        path: "/#qualification",
         icon: "bx bx-book",
         id: "qualification",
       },

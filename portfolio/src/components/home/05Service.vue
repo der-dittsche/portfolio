@@ -185,6 +185,7 @@ export default {
   background-color: var(--box-color);
   padding: 5rem 2rem 3rem 2rem;
   text-align: center;
+  border-radius: 0.5rem;
 }
 
 .services__icon {

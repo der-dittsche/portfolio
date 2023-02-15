@@ -2,7 +2,7 @@
   <div>
     <h2 data-heading="My Intro" class="section__title">About Me</h2>
     <div class="about__container container grid">
-      <img src="../../assets/img/sd_about.png" alt="" class="about__img" />
+      <img src="../../assets/img/sd_about1.jpg" alt="" class="about__img" />
       <div class="about__data">
         <h3 class="about__heading">
           Hi, I'm Sascha Dietrich, <br />based in OWL Germany(NRW)

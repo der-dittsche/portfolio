@@ -17,7 +17,7 @@
           <i class="bx bx-wrench skills__icon"></i>
           <div>
             <h1 class="skills__title">Tooling</h1>
-            <span class="skills__subtitle">I'm using for development</span>
+            <span class="skills__subtitle">I'm use for development</span>
           </div>
           <i class="bx bx-chevron-down skills__arrow"></i>
         </div>

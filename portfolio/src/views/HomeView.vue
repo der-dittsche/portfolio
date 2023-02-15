@@ -78,7 +78,7 @@ export default {
       let scrollY = window.pageYOffset;
       this.$refs.sections.forEach((current) => {
         const sectionHeight = current.offsetHeight;
-        const sectionTop = current.offsetTop - 50,
+        const sectionTop = current.offsetTop - 20,
           sectionId = current.getAttribute("id");
         if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
           this.helpers.currentSection = sectionId;
@@ -90,14 +90,14 @@ export default {
 </script>
 <style scoped>
 .home {
-  background: url("../assets/img/sd_main.png");
+  background: url("../assets/img/bg_main.jpg");
   background-size: cover;
   background-position: center center;
   height: 100vh;
 }
 @media screen and (max-width: 1400px) {
   .home {
-    background-image: none;
+    /* background-image: none; */
     height: initial;
     align-items: initial;
     padding: 7rem 0 2rem;

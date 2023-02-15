@@ -15,26 +15,20 @@
           class="home__social-link"
           ><i class="bx bxl-github"></i>
         </a>
-        <a
-          href="https://www.instagram.com/dreadderino/"
-          target="_blank"
-          class="home__social-link"
-          ><i class="bx bxl-instagram"></i>
-        </a>
       </div>
     </div>
-    <img src="../../assets/img/sd_home.png" alt="" class="home__img" />
+    <img src="" alt="" class="home__img" />
     <div class="home__data">
-      <h1 class="home__title">Hi, I'am Sascha</h1>
+      <h1 class="home__title">Hi,I'm Sascha</h1>
       <h3 class="home__subtitle">Webapp-Developer</h3>
       <p class="home__description">
-        I'm a and passionate in designing modern web-interfaces
+        I'm a passionate about designing modern web-interfaces
       </p>
       <a href="#/#about" class="button"
         ><i class="bx bx-user button__icon"></i>More about me</a
       >
     </div>
-    <div class="my__info">
+    <!-- <div class="my__info">
       <div class="info__item">
         <i class="bx bx-envelope info-icon"></i>
         <div>
@@ -42,14 +36,8 @@
           <span class="info__subtitle">sascha_dietrich@outlook.com</span>
         </div>
       </div>
-      <div class="info__item">
-        <i class="bx bxl-instagram info-icon"></i>
-        <div>
-          <h3 class="info__title">Instagram</h3>
-          <span class="info__subtitle">https://ig.me/m/dreadderino</span>
-        </div>
-      </div>
-    </div>
+      <div class="info__item"></div>
+    </div> -->
   </div>
 </template>
 <style scoped>
@@ -65,11 +53,13 @@
   display: flex;
   align-items: center;
   column-gap: 3.5rem;
+  color: hsl(52, 100%, 92%);
 }
 
 .home__social-follow {
   font-family: var(--body-font-800);
   position: relative;
+  font-size: var(--h1-font-size);
 }
 
 .home__social-follow::after {
@@ -77,8 +67,8 @@
   position: absolute;
   width: 1rem;
   height: 2px;
-  background-color: var(--text-color);
-  right: -45%;
+  background-color: hsl(52, 100%, 92%);
+  right: -18%;
   top: 50%;
 }
 
@@ -88,8 +78,9 @@
 }
 
 .home__social-link {
-  font-size: var(--h3-font-size);
-  color: var(--text-color);
+  font-size: var(--h1-font-size);
+  color: hsl(52, 100%, 92%);
+
   transition: 0.4s;
 }
 
@@ -98,18 +89,25 @@
 }
 
 .home__title {
-  font-size: var(--biggest-font-size);
+  font-size: 6rem;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 5px hsl(52, 100%, 92%);
 }
 
 .home__subtitle {
-  font-size: var(--h3-font-size);
+  font-size: var(--h1-font-size);
   font-family: var(--body-font-600);
   margin-bottom: var(--mb-0-75);
+  color: hsl(52, 100%, 92%);
+  text-shadow: 2px 2px 5px black;
 }
 
 .home__description {
-  min-width: 350px;
+  min-width: 250px;
   margin-bottom: var(--mb-2);
+  font-size: var(--h2-font-size);
+  font-family: var(--body-font-600);
+  text-shadow: 2px 2px 5px hsl(52, 100%, 92%);
 }
 
 .my__info {
