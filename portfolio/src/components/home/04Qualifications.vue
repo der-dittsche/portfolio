@@ -12,7 +12,7 @@
             <h3 class="timeline__title">Vue.js & TypeScript Intensiv-Course</h3>
             <p class="timeline__text">workshops.de</p>
             <p class="timeline__text">
-              Construction of webapps in the framework Vue.js based on
+              Construction of web apps in the framework Vue.js based on
               TypeScript
             </p>
             <span class="timeline__date"
@@ -21,10 +21,10 @@
           </div>
           <div class="timeline__item">
             <div class="circle__dot"></div>
-            <h3 class="timeline__title">Web-Developer</h3>
-            <p class="timeline__text">Coding Bootcamp Europe</p>
+            <h3 class="timeline__title">Web Developer</h3>
+            <p class="timeline__text">Coding Bootcamps Europe</p>
             <p class="timeline__text">
-              Develeoping Website based on HTML / CSS / JS | Framework Vue.js |
+              Developing website based on HTML / CSS / JS | Framework Vue.js |
               Unit and E2E testing with Jest and Cypress
             </p>
             <span class="timeline__date"
@@ -49,7 +49,7 @@
             </h3>
             <p class="timeline__text">Deutsche Telekom AG</p>
             <p class="timeline__text">
-              Salesman of IT-equipment for business and private user
+              Salesman of IT-equipment for business and private users
             </p>
             <span class="timeline__date"
               ><i class="bx bx-calendar"></i>2003/09 – 2006/06</span
@@ -64,12 +64,14 @@
         <div class="timeline">
           <div class="timeline__item">
             <div class="circle__dot"></div>
-            <h3 class="timeline__title">Webapp-Developer & IT-Administor</h3>
+            <h3 class="timeline__title">
+              Web App Developer & IT-Administrator
+            </h3>
             <p class="timeline__text">digiblue GmbH</p>
             <p class="timeline__text">
-              Deployment and configuration of internal IT infrastructure,
-              webapp- development for data visualization in project-related
-              customer use-case, project-related communication with customers
+              Deployment and configuration of internal IT infrastructure, web
+              app development for data visualization in project-related customer
+              use-case, project-related communication with customers
             </p>
             <span class="timeline__date"
               ><i class="bx bx-calendar"></i>2021/12 - 2022/12</span
@@ -77,15 +79,15 @@
           </div>
           <div class="timeline__item">
             <div class="circle__dot"></div>
-            <h3 class="timeline__title">IT-Administor</h3>
+            <h3 class="timeline__title">IT-Administrator</h3>
             <p class="timeline__text">
               Indeed Germany | Pieritz select* | RHT | KI-Group GmbH | Jerocom
               GmbH | Hays Professional Solution GmbH | Jar Media GmbH | Job@tive
               |AixConcept GmbH | NetCologne GmbH | Marko-Medien-Dienst GmbH
             </p>
             <p class="timeline__text">
-              Administration of MS based infrastructure for business users.
-              Usersupport Mac and Windows
+              Administration of MS-based infrastructure for business users. User
+              support Mac and Windows
             </p>
             <span class="timeline__date"
               ><i class="bx bx-calendar"></i>2019/04 - 2010/07</span
@@ -96,7 +98,7 @@
             <h3 class="timeline__title">Service-Technician</h3>
             <p class="timeline__text">Hemmersbach GmbH & Co KG</p>
             <p class="timeline__text">
-              Hardware support of 'HP' equipment for business user
+              Hardware support of 'HP' equipment for business users
             </p>
             <span class="timeline__date"
               ><i class="bx bx-calendar"></i>2010/04 – 2010/06</span
@@ -109,7 +111,7 @@
               Comline Computer&Softwarelösungen AG | Ducon Consulting GmbH |
               TechTeam International AG
             </p>
-            <p class="timeline__text">Helpdesk support for business user</p>
+            <p class="timeline__text">Helpdesk support for business users</p>
             <span class="timeline__date"
               ><i class="bx bx-calendar"></i>2010/04 – 2010/06</span
             >
@@ -120,7 +122,7 @@
   </div>
   <div class="testimonial__contents">
     <h2
-      data-heading="What Coulleges and Supervisior says about me"
+      data-heading="What colleagues and supervisors say about me"
       class="section__title"
     >
       Testimonials

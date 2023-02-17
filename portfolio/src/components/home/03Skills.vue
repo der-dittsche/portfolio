@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 data-heading="My Abilities" class="section__title">Expirience</h2>
+    <h2 data-heading="My Abilities" class="section__title">Experience</h2>
     <div class="skills__container container grid">
       <div class="skills__tabs">
         <div class="skills__header skills__active" data-target="#devlang">
@@ -17,14 +17,14 @@
           <i class="bx bx-wrench skills__icon"></i>
           <div>
             <h1 class="skills__title">Tooling</h1>
-            <span class="skills__subtitle">I'm use for development</span>
+            <span class="skills__subtitle">I use for development</span>
           </div>
           <i class="bx bx-chevron-down skills__arrow"></i>
         </div>
         <div class="skills__header" data-target="#softskills">
           <i class="bx bx-support skills__icon"></i>
           <div>
-            <h1 class="skills__title">Softskills</h1>
+            <h1 class="skills__title">Soft Skills</h1>
             <span class="skills__subtitle">which characterize my work</span>
           </div>
           <i class="bx bx-chevron-down skills__arrow"></i>

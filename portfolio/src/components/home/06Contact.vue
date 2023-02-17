@@ -25,7 +25,7 @@
           <div class="contact__card">
             <i class="bx bx-map contact__card-icon"></i>
             <h3 class="contact__card-title">Location</h3>
-            <span class="contact__card-data">OWL Germany(NRW)</span>
+            <span class="contact__card-data">Germany(NRW)</span>
           </div>
         </div>
       </div>

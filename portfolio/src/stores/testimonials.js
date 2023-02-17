@@ -18,15 +18,15 @@ export const useTestimonialStore = defineStore("testimonialsStore", {
             "We value Mr. Dietrich as a highly reflective, very reliable and determined employee whose relationship with superiors, colleagues and customers is always professional and friendly.",
           name: "Stefan",
           company: "digiblue GmbH",
-          position: "Supervisior",
+          position: "Supervisor",
         },
         {
           id: "3",
           content:
-            "He really was committed into his work. As he had to work on-location he was doing the major part of his operations independently. Our clients were happy with him and gave us feedback on his great work.",
+            "He was committed to his work. As he had to work on-location he was doing the major part of his operations independently. Our clients were happy with him and gave us feedback on his great work.",
           name: "Julian",
           company: "JAR Media",
-          position: "Supervisior",
+          position: "Supervisor",
         },
       ],
     };

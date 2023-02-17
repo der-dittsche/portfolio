@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 data-heading="Service" class="section__title">What I offer</h2>
+    <h2 data-heading="Services" class="section__title">What I offer</h2>
     <div class="services__container container grid">
       <div class="service__content">
         <div>
@@ -74,7 +74,7 @@
             <h3 class="services__modal-title">Layout & Design</h3>
             <p class="services__modal-description">
               Professional implementation of your ideas and wishes for your
-              website on the Internet
+              website
             </p>
             <ul class="services__modal-services grid">
               <li class="services__modal-service">

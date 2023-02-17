@@ -78,7 +78,7 @@ export default {
       let scrollY = window.pageYOffset;
       this.$refs.sections.forEach((current) => {
         const sectionHeight = current.offsetHeight;
-        const sectionTop = current.offsetTop - 20,
+        const sectionTop = current.offsetTop - 50,
           sectionId = current.getAttribute("id");
         if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
           this.helpers.currentSection = sectionId;

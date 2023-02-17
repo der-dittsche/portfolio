@@ -20,9 +20,9 @@
     <img src="" alt="" class="home__img" />
     <div class="home__data">
       <h1 class="home__title">Hi,I'm Sascha</h1>
-      <h3 class="home__subtitle">Webapp-Developer</h3>
+      <h3 class="home__subtitle">Web App Developer</h3>
       <p class="home__description">
-        I'm a passionate about designing modern web-interfaces
+        I'm passionate about designing modern webinterfaces
       </p>
       <a href="#/#about" class="button"
         ><i class="bx bx-user button__icon"></i>More about me</a
@@ -105,9 +105,10 @@
 .home__description {
   min-width: 250px;
   margin-bottom: var(--mb-2);
-  font-size: var(--h2-font-size);
+  font-size: var(--h3-font-size);
   font-family: var(--body-font-600);
-  text-shadow: 2px 2px 5px hsl(52, 100%, 92%);
+  color: hsl(52, 100%, 92%);
+  text-shadow: 2px 2px 5px black;
 }
 
 .my__info {
@@ -155,23 +156,14 @@
 
   .home__social {
     left: initial;
-    right: -1rem;
-    flex-direction: column;
     row-gap: 3.5rem;
+    top: -4.8rem;
   }
   .my__info {
     display: none;
   }
   .home__social {
     padding-right: 2.5rem;
-  }
-  .home__social-follow {
-    transform: rotate(90deg);
-  }
-  .home__social-links {
-    flex-direction: column;
-    row-gap: 2.5rem;
-    padding-top: 3rem;
   }
 }
 @media screen and (max-width: 1345px) {
@@ -185,7 +177,7 @@
 
 @media screen and (min-width: 390px) {
   .home__title {
-    font-size: 5.5rem;
+    font-size: 4.5rem;
     letter-spacing: 0px;
   }
 }

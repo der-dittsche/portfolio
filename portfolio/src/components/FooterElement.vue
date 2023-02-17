@@ -3,13 +3,14 @@
     <div class="footer__container container grid">
       <div>
         <h1 class="footer__title">Sascha Dietrich</h1>
-        <p class="footer__subtitle">Webapp Developer</p>
+        <p class="footer__subtitle">Web App Developer</p>
       </div>
 
       <ul class="footer__links">
+        <li><a href="/#/#home">Home</a></li>
         <li><a href="/#/#skills">Skills</a></li>
-        <li><a href="/#/#qualifications">Qualifications</a></li>
-        <li><a href="/#/#service">Service</a></li>
+        <li><a href="/#/#qualification">Qualifications</a></li>
+        <li><a href="/#/#service">Services</a></li>
       </ul>
       <div class="footer__box-socials">
         <a
@@ -86,6 +87,16 @@
   .footer__container {
     grid-template-columns: 1fr;
     gap: var(--biggest-font-size);
+  }
+  .footer__links {
+    flex-direction: column;
+    justify-self: start;
+  }
+  .footer__social {
+    padding-left: 0;
+  }
+  .footer__box-socials {
+    justify-self: start;
   }
 }
 </style>

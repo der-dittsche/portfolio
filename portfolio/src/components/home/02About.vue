@@ -14,13 +14,13 @@
           requirements of the customers.
         </p>
         <p class="about__description">
-          In my last job I got to know the field of sensor-based monitoring and
+          In my last job, I got to know the field of sensor-based monitoring and
           was responsible for the visualization of data for our customers. In
-          order to expand my knowledge, I decided to participate in a further
-          education in the field of webapp development (in the summer of 2022).
+          order to expand my knowledge, I decided to participate in further
+          education in the field of web app development (in the summer of 2022).
         </p>
         <p class="about__description">
-          Through this I discovered my even greater passion for website
+          Through this, I discovered my even greater passion for website
           development. From now on I’m going to implement projects exclusively
           in this area in the future.
         </p>
@@ -32,7 +32,7 @@
           </div>
           <div class="about__box">
             <i class="bx bx-briefcase-alt-2 about__icon"></i>
-            <h3 class="about__title">Company worked</h3>
+            <h3 class="about__title">Companies worked for</h3>
             <span class="about__subtitle">10+</span>
           </div>
           <div class="about__box">
